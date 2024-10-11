@@ -1,5 +1,7 @@
-
-body{font-family: Arial, Helvetica, sans-serif;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
 
 header .logo {
   background-color: #222f3f;
@@ -25,5 +27,96 @@ menu a {
 
 .navigationbar {
   background-color: #364759;
-padding: 0.5em;  
+  padding: 0.5em;
 }
+
+main {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.advertising {
+  color: white;
+  text-align: center;
+}
+
+.advertising-smallBar {
+  background-color: #f66500;
+  margin: 1em 0;
+  padding: 0.35em;
+  font-size: 12px;
+}
+
+.advertising-largeBar {
+  padding: 2.5em 2em 2em 2em;
+  background-image: url(../images/bg-image.png);
+  background-repeat: repeat;
+  background-size: 100% auto;
+  background-position: top;
+}
+.advertising-largeBar h1 {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.advertising-largeBar p {
+  font-size: 12px;
+}
+
+#blockOne img {
+  width: 23.5%;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 6px;
+  height: 45vh; 
+  box-shadow: 9px 7px 4px 5px rgba(137,139,139,0.12);
+}
+
+.img-blockOne :nth-child(1),
+.img-blockOne :nth-child(2),
+.img-blockOne :nth-child(3)
+{
+    margin-right: 1em;
+}
+
+
+
+#blockOne {
+  background-color: white;
+  padding: 1em;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.text {
+  margin-bottom: 1em;
+}
+.text h4 {
+  display: inline-block;
+  font-size: 14px;
+}
+.text p {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.text a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  color: #18686c;
+}
+
+.img-blockTwo img, #blockThree img {
+    width: 100%;
+    margin-top: 1em;
+}
+
+#blockTwo{
+    text-align: center;
+}
+
+#blockThree {text-align: center;}
