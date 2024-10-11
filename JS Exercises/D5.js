@@ -129,30 +129,32 @@ while (i < numericArray.length) {
 const charactersArray = ["g", "n", "u", "z", "d"];
 
 const newArray = [];
-for(let i = 0; i<charactersArray.length; i++){
-switch (charactersArray) {
-  case "g":
-    let newCharacters = 8;
-    newArray.push(newCharacters)
+let newCharacters
+for (let i = 0; i < charactersArray.length; i++) {
+  switch (charactersArray[i]) {
+    case "g":
+      newCharacters = 8;
+      newArray.push(newCharacters);
 
-    break;
-  case 'n':
-    newCharacters = 12;
-    newArray.push(newCharacters);
-    break;
-    case 'u':
-    newCharacters = 19;
-    newArray.push(newCharacters);
-    break;
+      break;
+    case "n":
+      newCharacters = 12;
+      newArray.push(newCharacters);
+      break;
+    case "u":
+      newCharacters = 19;
+      newArray.push(newCharacters);
+      break;
     case "z":
-    newCharacters = 21;
-    newArray.push(newCharacters);
-    break;
-case 'd':
-  newCharacters = 4;
-  newArray.push(newCharacters)
-
-  default:
-  console.log('Non è stato ancora assegnato un valore numerico a questo carattere')
+      newCharacters = 21;
+      newArray.push(newCharacters);
+      break;
+    case "d":
+      newCharacters = 4;
+      newArray.push(newCharacters);
+      break;
+    default:
+      break;
+  }
 }
-}
+console.log(newArray)
