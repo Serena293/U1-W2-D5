@@ -49,21 +49,24 @@ main {
 }
 
 .advertising-largeBar {
-  padding: 2.5em 2em 2em 2em;
+  height: 18vh;
+  padding: 2.5em;
   background-image: url(../images/bg-image.png);
-
  background-size: auto 19vh;
  background-repeat:repeat;
-  
  
 }
 .advertising-largeBar h1 {
   font-weight: bold;
   margin-bottom: 1em;
+  margin-top: 1.5em;
+  font-size: 24px;
 }
 
 .advertising-largeBar p {
-  font-size: 12px;
+  font-size: 15px;
+  font-weight: bold;
+ 
 }
 
 #blockOne img {
